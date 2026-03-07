@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swastik | Fresh Stone-Ground Atta</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        .hero { background: #006837; color: white; padding: 80px 5%; text-align: center; }
+        .section-padding { padding: 60px 5%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .product-card { border: 2px solid #eee; border-radius: 15px; padding: 20px; text-align: center; transition: 0.3s; }
+        .whatsapp-btn { background: #25D366; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: block; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Swastik: Pure Chakki Fresh Atta</h1>
+        <p>Grinded Today. Delivered Today. Quality Trusted Since 1999.</p>
+    </header>
+   <section id="about" style="background-color: #fff9e6; padding: 60px 5%; line-height: 1.8;">
+    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+        
+        <img src="swastik_logo.jpeg" alt="Swastik Logo" style="max-width: 200px; margin-bottom: 20px;">
+        
+        <h2 style="color: #006837; font-size: 2.5rem; margin-bottom: 20px;">Our Heritage Since 1999</h2>
+        <p style="font-size: 1.1rem; color: #444;">
+            For over two decades, <strong>Khola Flour Mill</strong> has been a cornerstone of purity in Rewari. What started in 1999 near the sacred Hanuman Mandir in Village Kharkhara has grown into the trusted brand <strong>Swastik</strong>. 
+        </p>
+
+        <div style="margin: 40px 0;">
+            <h3 style="color: #006837;">Our Fresh Packaging</h3>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <img src="swastik_front.jpeg" alt="Front Packing" style="width: 200px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <img src="rear_side_packing.jpeg" alt="Rear Packing" style="width: 200px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px;">
+            <div style="padding: 20px; border-radius: 10px; border-left: 5px solid #f7941e; background: white;">
+                <h4 style="color: #006837; margin-top: 0;">Traditional Stone-Grinding</h4>
+                <p style="font-size: 0.95rem;">We use the "Chakki" method to ensure the wheat is ground at a low temperature, preserving the natural oils, vitamins, and fiber of the grain.</p>
+            </div>
+            <div style="padding: 20px; border-radius: 10px; border-left: 5px solid #f7941e; background: white;">
+                <h4 style="color: #006837; margin-top: 0;">Purity Guaranteed</h4>
+                <p style="font-size: 0.95rem;">Our Atta is 100% Whole Wheat with zero Maida and no added preservatives. We believe in providing the same quality we would serve at our own table.</p>
+            </div>
+            <div style="padding: 20px; border-radius: 10px; border-left: 5px solid #f7941e; background: white;">
+                <h4 style="color: #006837; margin-top: 0;">Community Driven</h4>
+                <p style="font-size: 0.95rem;">Rooted in Kharkhara, Haryana, we take pride in supporting our local farmers and providing high-quality wheat bran for our community's livestock.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="section-padding" style="background: #fff9e6; text-align: center;">
+        <h2>Why Freshly Ground Beats Factory-Packed</h2>
+        <div class="grid">
+            <div>
+                <h4>Traditional Stone-Grinding (Chakki)</h4>
+                <p>We avoid high-speed steel rollers that strip natural oils. Our stone-grinding preserves the germ, bran, and essential nutrients.</p>
+            </div>
+            <div>
+                <h4>0% Preservatives</h4>
+                <p>No chemicals. No additives. Just 100% pure whole wheat, ground and delivered to your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <h2 style="text-align: center;">Our Products</h2>
+        <div class="grid">
+            <div class="product-card">
+                <h3>10 KG Pack</h3>
+                <p style="text-decoration: line-through;">MRP: ₹450</p>
+                <h2 style="color: #006837;">₹375</h2>
+                <a href="https://wa.me/917027370202?text=Order%2010KG%20Atta" class="whatsapp-btn">Order Now</a>
+            </div>
+            <div class="product-card">
+                <h3>5 KG Pack</h3>
+                <p style="text-decoration: line-through;">MRP: ₹225</p>
+                <h2 style="color: #006837;">₹195</h2>
+                <a href="https://wa.me/917027370202?text=Order%205KG%20Atta" class="whatsapp-btn">Order Now</a>
+            </div>
+            <div class="product-card" style="border: 3px solid #f7941e;">
+                <h3>40 KG Wholesale</h3>
+                <h2 style="color: #f7941e;">GET QUOTE</h2>
+                <a href="https://wa.me/917027370202?text=Quote%20for%2040KG" class="whatsapp-btn" style="background: #f7941e;">Get Price</a>
+            </div>
+            <div class="product-card">
+                <h3>Wheat Bran (Chokar)</h3>
+                <h2 style="color: #6d4c41;">GET QUOTE</h2>
+                <a href="https://wa.me/917027370202?text=Quote%20for%20Wheat%20Bran" class="whatsapp-btn" style="background: #6d4c41;">Get Price</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: #f4f4f4; text-align: center;">
+        <h2>Where We Deliver</h2>
+        <p>Serving the wider region with fresh quality:</p>
+        <p><strong>Dharuhera, Bawal, Rewari, Bhiwadi, Manesar, and Pataudi.</strong></p>
+        <div style="margin-top: 20px;">
+            <p><strong>Free Delivery:</strong> Within 3km of mill | <strong>Bulk Free Delivery:</strong> Within 20km for 40kg+ orders.</p>
+        </div>
+    </section>
+
+    <footer style="background: #006837; color: white; padding: 40px 5%; text-align: center;">
+        <h2 style="color: #f7941e;">The Swastik Promise</h2>
+        <p>If you are not satisfied with the freshness, we will replace it on your next order.</p>
+        <div style="margin-top: 30px;">
+            <p><strong>Khola Flour Mill</strong>, Near Hanuman Mandir, Village Kharkhara, Dist. Rewari, Haryana - 123106</p>
+            <p>Contact: +91 7027370202 | Email: kholaflourmill0202@gmail.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
